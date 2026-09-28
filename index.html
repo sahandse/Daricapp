@@ -1,27 +1,31 @@
 <!doctype html>
-<html lang="fa" dir="rtl">
+<html lang="fa" dir="rtl" data-theme="dark">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
-  <meta name="theme-color" content="#0f9b73" />
+  <meta name="theme-color" content="#070a09" />
   <meta name="description" content="دانلود داریک؛ مدیریت مالی آفلاین و شخصی برای ثبت دارایی‌ها، درآمد و هزینه، اقساط و وام، گزارش‌های مالی و مشاهده قیمت‌های بازار." />
   <title>داریک | مدیریت مالی آفلاین و شخصی</title>
   <style>
-    :root{--bg:#f5f8f6;--card:#fff;--text:#151a18;--muted:#69736f;--brand:#109a72;--brand2:#35c79a;--line:#e5ebe8;--shadow:0 18px 50px rgba(20,70,55,.09)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,"Segoe UI",sans-serif;background:radial-gradient(circle at 10% -10%,#daf4e9 0,transparent 34%),var(--bg);color:var(--text)}
-    a{text-decoration:none;color:inherit}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}.nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{display:flex;align-items:center;gap:12px;font-weight:900}.logo{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;color:#fff;font-size:22px;box-shadow:0 10px 24px rgba(16,154,114,.25)}.support{border:1px solid var(--line);background:#fff;padding:11px 16px;border-radius:14px;font-weight:700}
-    .hero{padding:64px 0 36px;display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}.badge{display:inline-flex;align-items:center;gap:8px;background:#e6f7f1;color:#087f5d;padding:8px 12px;border-radius:999px;font-weight:800;font-size:14px}.hero h1{font-size:clamp(38px,6vw,72px);line-height:1.1;margin:18px 0;letter-spacing:-1.5px}.hero h1 span{color:var(--brand)}.hero p{font-size:18px;line-height:2;color:var(--muted);max-width:650px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{padding:15px 22px;border-radius:16px;font-weight:900;display:inline-flex;align-items:center;justify-content:center;gap:9px}.primary{background:var(--brand);color:#fff;box-shadow:0 13px 28px rgba(16,154,114,.24)}.secondary{background:#fff;border:1px solid var(--line)}.phone{justify-self:center;width:min(330px,82vw);padding:10px;border-radius:34px;background:#151918;box-shadow:0 35px 80px rgba(0,0,0,.22);transform:rotate(-2deg)}.phone img{display:block;width:100%;border-radius:26px}
-    .features{padding:42px 0}.section-title{text-align:center;margin-bottom:28px}.section-title h2{font-size:34px;margin:0 0 10px}.section-title p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.feature{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:0 8px 28px rgba(0,0,0,.035)}.icon{width:44px;height:44px;border-radius:14px;background:#e8f7f2;color:var(--brand);display:grid;place-items:center;font-size:21px}.feature h3{margin:16px 0 8px}.feature p{margin:0;color:var(--muted);line-height:1.8;font-size:14px}
-    .shots{padding:52px 0}.shot-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start;max-width:850px;margin:auto}.shot{background:#101311;border-radius:28px;padding:7px;box-shadow:var(--shadow);transition:.25s}.shot:hover{transform:translateY(-6px)}.shot img{width:100%;display:block;border-radius:22px}
-    .cta{margin:48px auto 70px;padding:38px;border-radius:30px;background:linear-gradient(135deg,#0a815f,#17ad81);color:white;display:flex;align-items:center;justify-content:space-between;gap:24px;box-shadow:0 24px 60px rgba(16,154,114,.25)}.cta h2{font-size:30px;margin:0 0 8px}.cta p{margin:0;opacity:.86;line-height:1.8}.cta .btn{background:white;color:#087b5c;white-space:nowrap}.footer{border-top:1px solid var(--line);padding:26px 0 36px;color:var(--muted);text-align:center;font-size:14px}
-    @media(max-width:900px){.hero{grid-template-columns:1fr;text-align:center;padding-top:38px}.hero p{margin-inline:auto}.actions{justify-content:center}.phone{transform:none}.grid{grid-template-columns:repeat(2,1fr)}.cta{flex-direction:column;text-align:center}}
-    @media(max-width:560px){.wrap{width:min(100% - 22px,1120px)}.nav{height:66px}.support{padding:9px 12px;font-size:13px}.hero{gap:36px}.hero h1{font-size:42px}.hero p{font-size:16px}.actions{display:grid}.btn{width:100%}.grid{grid-template-columns:1fr 1fr;gap:10px}.feature{padding:16px}.feature p{font-size:13px}.shot-row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px 2px 18px}.shot{min-width:72vw;scroll-snap-align:center}.cta{padding:28px 20px}.section-title h2{font-size:28px}}
+    :root{--bg:#f5f8f6;--card:#fff;--text:#151a18;--muted:#69736f;--brand:#18b987;--brand2:#39d6a5;--line:#e5ebe8;--soft:#e8f7f2;--shadow:0 18px 50px rgba(20,70,55,.09)}
+    html[data-theme="dark"]{--bg:#070a09;--card:#111513;--text:#f2f5f4;--muted:#8f9a96;--line:#222a27;--soft:#10271f;--shadow:0 18px 50px rgba(0,0,0,.34)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,"Segoe UI",sans-serif;background:radial-gradient(circle at 10% -10%,rgba(24,185,135,.12) 0,transparent 34%),var(--bg);color:var(--text);transition:.25s}
+    a{text-decoration:none;color:inherit}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{display:flex;align-items:center;gap:12px;font-weight:900}.logo{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;color:#fff;font-size:22px;box-shadow:0 10px 24px rgba(16,154,114,.25)}.nav-actions{display:flex;gap:8px;align-items:center}.support,.theme-toggle{border:1px solid var(--line);background:var(--card);color:var(--text);padding:11px 16px;border-radius:14px;font-weight:700}.theme-toggle{cursor:pointer;width:44px;padding:11px 0}
+    .hero{padding:64px 0 36px;display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}.badge{display:inline-flex;align-items:center;gap:8px;background:var(--soft);color:var(--brand);padding:8px 12px;border-radius:999px;font-weight:800;font-size:14px}.hero h1{font-size:clamp(38px,6vw,72px);line-height:1.1;margin:18px 0;letter-spacing:-1.5px}.hero h1 span{color:var(--brand)}.hero p{font-size:18px;line-height:2;color:var(--muted);max-width:650px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{padding:15px 22px;border-radius:16px;font-weight:900;display:inline-flex;align-items:center;justify-content:center;gap:9px}.primary{background:var(--brand);color:#06110d;box-shadow:0 13px 28px rgba(16,154,114,.24)}.secondary{background:var(--card);border:1px solid var(--line)}.phone{justify-self:center;width:min(330px,82vw);padding:10px;border-radius:34px;background:#050706;box-shadow:0 35px 80px rgba(0,0,0,.35);transform:rotate(-2deg)}.phone img{display:block;width:100%;border-radius:26px}
+    .features{padding:42px 0}.section-title{text-align:center;margin-bottom:28px}.section-title h2{font-size:34px;margin:0 0 10px}.section-title p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.feature{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow)}.icon{width:44px;height:44px;border-radius:14px;background:var(--soft);color:var(--brand);display:grid;place-items:center;font-size:21px}.feature h3{margin:16px 0 8px}.feature p{margin:0;color:var(--muted);line-height:1.8;font-size:14px}
+    .shots{padding:52px 0}.shot-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start;max-width:850px;margin:auto}.shot{background:#050706;border-radius:28px;padding:7px;box-shadow:var(--shadow);transition:.25s}.shot:hover{transform:translateY(-6px)}.shot img{width:100%;display:block;border-radius:22px}
+    .download-card{margin:48px auto 70px;padding:38px;border-radius:30px;background:linear-gradient(135deg,#0b6f55,#16a97d);color:white;box-shadow:0 24px 60px rgba(16,154,114,.25)}.download-card h2{font-size:30px;margin:0 0 8px}.download-card p{margin:0 0 24px;opacity:.86;line-height:1.8}.download-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.store-btn{background:white;color:#0a6e54;border-radius:18px;padding:16px 18px;font-weight:900;text-align:center}.store-btn.disabled{opacity:.55;cursor:not-allowed}.store-btn small{display:block;font-weight:400;margin-top:5px;color:#6d7773}.footer{border-top:1px solid var(--line);padding:26px 0 36px;color:var(--muted);text-align:center;font-size:14px}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;text-align:center;padding-top:38px}.hero p{margin-inline:auto}.actions{justify-content:center}.phone{transform:none}.grid{grid-template-columns:repeat(2,1fr)}.download-grid{grid-template-columns:1fr}}
+    @media(max-width:560px){.wrap{width:min(100% - 22px,1120px)}.nav{height:66px}.support{padding:9px 11px;font-size:12px}.hero{gap:36px}.hero h1{font-size:42px}.hero p{font-size:16px}.actions{display:grid}.btn{width:100%}.grid{grid-template-columns:1fr 1fr;gap:10px}.feature{padding:16px}.feature p{font-size:13px}.shot-row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px 2px 18px}.shot{min-width:72vw;scroll-snap-align:center}.download-card{padding:28px 20px}.section-title h2{font-size:28px}}
   </style>
 </head>
 <body>
   <header class="wrap nav">
     <div class="brand"><div class="logo">د</div><span>داریک</span></div>
-    <a class="support" href="https://t.me/sahandse" target="_blank" rel="noopener">پشتیبانی تلگرام</a>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="تغییر حالت نمایش">☀️</button>
+      <a class="support" href="https://t.me/sahandse" target="_blank" rel="noopener">پشتیبانی تلگرام</a>
+    </div>
   </header>
 
   <main>
@@ -57,11 +61,30 @@
       </div>
     </section>
 
-    <section id="download" class="wrap cta">
-      <div><h2>داریک را روی اندروید نصب کنید</h2><p>مدیریت مالی آفلاین و شخصی، ساده و همیشه در دسترس. برای دریافت نسخه و پشتیبانی با تلگرام در ارتباط باشید.</p></div>
-      <a class="btn" href="https://t.me/sahandse" target="_blank" rel="noopener">پشتیبانی تلگرام ↗</a>
+    <section id="download" class="wrap download-card">
+      <h2>دانلود داریک برای اندروید</h2>
+      <p>یکی از روش‌های دانلود زیر را انتخاب کنید.</p>
+      <div class="download-grid">
+        <a class="store-btn disabled" href="#" onclick="return false">⬇ دانلود مستقیم<small>لینک APK هنوز ثبت نشده</small></a>
+        <a class="store-btn disabled" href="#" onclick="return false">کافه‌بازار<small>لینک صفحه برنامه را ارسال کنید</small></a>
+        <a class="store-btn disabled" href="#" onclick="return false">مایکت<small>لینک صفحه برنامه را ارسال کنید</small></a>
+      </div>
     </section>
   </main>
   <footer class="footer">© داریک — مدیریت مالی آفلاین و شخصی</footer>
+
+  <script>
+    const root=document.documentElement;
+    const btn=document.getElementById('themeToggle');
+    const saved=localStorage.getItem('daric-theme');
+    if(saved==='light'){root.dataset.theme='light';btn.textContent='🌙'}
+    else{root.dataset.theme='dark';btn.textContent='☀️'}
+    btn.addEventListener('click',()=>{
+      const next=root.dataset.theme==='dark'?'light':'dark';
+      root.dataset.theme=next;
+      localStorage.setItem('daric-theme',next);
+      btn.textContent=next==='dark'?'☀️':'🌙';
+    });
+  </script>
 </body>
 </html>
