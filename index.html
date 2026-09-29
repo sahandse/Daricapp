@@ -4,19 +4,23 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
   <meta name="theme-color" content="#070a09" />
-  <meta name="description" content="دانلود داریک؛ مدیریت مالی آفلاین و شخصی برای ثبت دارایی‌ها، درآمد و هزینه، اقساط و وام، گزارش‌های مالی و مشاهده قیمت‌های بازار." />
+  <meta name="description" content="دانلود داریک؛ مدیریت مالی آفلاین و شخصی برای ثبت درآمد و هزینه، حساب‌ها، اقساط، وام، گزارش مالی و مشاهده قیمت‌های بازار." />
   <title>داریک | مدیریت مالی آفلاین و شخصی</title>
   <style>
-    :root{--bg:#f5f8f6;--card:#fff;--text:#151a18;--muted:#69736f;--brand:#18b987;--brand2:#39d6a5;--line:#e5ebe8;--soft:#e8f7f2;--shadow:0 18px 50px rgba(20,70,55,.09)}
-    html[data-theme="dark"]{--bg:#070a09;--card:#111513;--text:#f2f5f4;--muted:#8f9a96;--line:#222a27;--soft:#10271f;--shadow:0 18px 50px rgba(0,0,0,.34)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,"Segoe UI",sans-serif;background:radial-gradient(circle at 10% -10%,rgba(24,185,135,.12) 0,transparent 34%),var(--bg);color:var(--text);transition:.25s}
-    a{text-decoration:none;color:inherit}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:12px}.brand{display:flex;align-items:center;gap:12px;font-weight:900}.logo{width:42px;height:42px;border-radius:14px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;color:#fff;font-size:22px;box-shadow:0 10px 24px rgba(16,154,114,.25)}.nav-actions{display:flex;gap:8px;align-items:center}.support,.theme-toggle{border:1px solid var(--line);background:var(--card);color:var(--text);padding:11px 16px;border-radius:14px;font-weight:700}.theme-toggle{cursor:pointer;width:44px;padding:11px 0}
-    .hero{padding:64px 0 36px;display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center}.badge{display:inline-flex;align-items:center;gap:8px;background:var(--soft);color:var(--brand);padding:8px 12px;border-radius:999px;font-weight:800;font-size:14px}.hero h1{font-size:clamp(38px,6vw,72px);line-height:1.1;margin:18px 0;letter-spacing:-1.5px}.hero h1 span{color:var(--brand)}.hero p{font-size:18px;line-height:2;color:var(--muted);max-width:650px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{padding:15px 22px;border-radius:16px;font-weight:900;display:inline-flex;align-items:center;justify-content:center;gap:9px}.primary{background:var(--brand);color:#06110d;box-shadow:0 13px 28px rgba(16,154,114,.24)}.secondary{background:var(--card);border:1px solid var(--line)}.phone{justify-self:center;width:min(330px,82vw);padding:10px;border-radius:34px;background:#050706;box-shadow:0 35px 80px rgba(0,0,0,.35);transform:rotate(-2deg)}.phone img{display:block;width:100%;border-radius:26px}
-    .features{padding:42px 0}.section-title{text-align:center;margin-bottom:28px}.section-title h2{font-size:34px;margin:0 0 10px}.section-title p{color:var(--muted);margin:0}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.feature{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px;box-shadow:var(--shadow)}.icon{width:44px;height:44px;border-radius:14px;background:var(--soft);color:var(--brand);display:grid;place-items:center;font-size:21px}.feature h3{margin:16px 0 8px}.feature p{margin:0;color:var(--muted);line-height:1.8;font-size:14px}
-    .shots{padding:52px 0}.shot-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start;max-width:850px;margin:auto}.shot{background:#050706;border-radius:28px;padding:7px;box-shadow:var(--shadow);transition:.25s}.shot:hover{transform:translateY(-6px)}.shot img{width:100%;display:block;border-radius:22px}
-    .download-card{margin:48px auto 70px;padding:38px;border-radius:30px;background:linear-gradient(135deg,#0b6f55,#16a97d);color:white;box-shadow:0 24px 60px rgba(16,154,114,.25)}.download-card h2{font-size:30px;margin:0 0 8px}.download-card p{margin:0 0 24px;opacity:.86;line-height:1.8}.download-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.store-btn{background:white;color:#0a6e54;border-radius:18px;padding:16px 18px;font-weight:900;text-align:center}.store-btn.disabled{opacity:.55;cursor:not-allowed}.store-btn small{display:block;font-weight:400;margin-top:5px;color:#6d7773}.footer{border-top:1px solid var(--line);padding:26px 0 36px;color:var(--muted);text-align:center;font-size:14px}
-    @media(max-width:900px){.hero{grid-template-columns:1fr;text-align:center;padding-top:38px}.hero p{margin-inline:auto}.actions{justify-content:center}.phone{transform:none}.grid{grid-template-columns:repeat(2,1fr)}.download-grid{grid-template-columns:1fr}}
-    @media(max-width:560px){.wrap{width:min(100% - 22px,1120px)}.nav{height:66px}.support{padding:9px 11px;font-size:12px}.hero{gap:36px}.hero h1{font-size:42px}.hero p{font-size:16px}.actions{display:grid}.btn{width:100%}.grid{grid-template-columns:1fr 1fr;gap:10px}.feature{padding:16px}.feature p{font-size:13px}.shot-row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px 2px 18px}.shot{min-width:72vw;scroll-snap-align:center}.download-card{padding:28px 20px}.section-title h2{font-size:28px}}
+    :root{--bg:#f4f7f5;--bg2:#edf4f0;--card:#fff;--card2:#f8fbf9;--text:#14201b;--muted:#69736f;--brand:#13ba82;--brand2:#5ce0b4;--brand3:#087c5b;--line:#e1e9e5;--soft:#e9f8f2;--shadow:0 18px 60px rgba(23,73,56,.12);--wallet:#13251f;--gold:#d8b96a}
+    html[data-theme="dark"]{--bg:#060908;--bg2:#0a0e0c;--card:#101512;--card2:#131a16;--text:#f3f7f5;--muted:#919e99;--line:#202a26;--soft:#0f2a20;--shadow:0 22px 70px rgba(0,0,0,.42);--wallet:#0d1713;--gold:#e2c574}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Tahoma,"Segoe UI",sans-serif;background:radial-gradient(circle at 8% 0%,rgba(19,186,130,.16),transparent 28%),linear-gradient(180deg,var(--bg),var(--bg2));color:var(--text);transition:.25s;overflow-x:hidden}
+    a{text-decoration:none;color:inherit}.wrap{width:min(1160px,calc(100% - 32px));margin:auto}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;gap:12px;position:relative;z-index:20}.brand{display:flex;align-items:center;gap:12px;font-weight:900;font-size:18px}.logo{width:46px;height:46px;border-radius:15px;background:linear-gradient(135deg,var(--brand),var(--brand2));display:grid;place-items:center;color:#06110d;font-weight:900;box-shadow:0 12px 30px rgba(19,186,130,.25)}.nav-actions{display:flex;gap:8px;align-items:center}.support,.theme-toggle{border:1px solid var(--line);background:rgba(255,255,255,.04);backdrop-filter:blur(18px);color:var(--text);padding:11px 15px;border-radius:14px;font-weight:800}.theme-toggle{cursor:pointer;width:44px;padding:11px 0}
+    .hero{padding:70px 0 38px;display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center}.badge{display:inline-flex;align-items:center;gap:8px;background:var(--soft);color:var(--brand);padding:9px 13px;border-radius:999px;font-weight:900;font-size:14px;border:1px solid rgba(19,186,130,.16)}.hero h1{font-size:clamp(42px,6vw,76px);line-height:1.08;margin:18px 0;letter-spacing:-1.6px}.hero h1 span{color:var(--brand)}.hero p{font-size:18px;line-height:2;color:var(--muted);max-width:680px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.btn{padding:15px 22px;border-radius:17px;font-weight:900;display:inline-flex;align-items:center;justify-content:center;gap:9px}.primary{background:linear-gradient(135deg,var(--brand),var(--brand2));color:#06110d;box-shadow:0 14px 34px rgba(19,186,130,.24)}.secondary{background:var(--card);border:1px solid var(--line)}
+    .wallet-scene{position:relative;min-height:480px;display:grid;place-items:center}.wallet-card{width:min(390px,90vw);aspect-ratio:1.58/1;border-radius:30px;background:linear-gradient(145deg,#173a2e,#0a1913 62%,#08110e);padding:28px;color:#fff;box-shadow:0 38px 90px rgba(0,0,0,.45);transform:rotate(-5deg);position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.08)}.wallet-card:before{content:"";position:absolute;width:230px;height:230px;border-radius:50%;background:rgba(50,217,163,.16);left:-55px;top:-80px}.wallet-card:after{content:"";position:absolute;width:180px;height:180px;border-radius:50%;background:rgba(216,185,106,.09);right:-60px;bottom:-75px}.wallet-top{display:flex;justify-content:space-between;align-items:center;position:relative;z-index:2}.wallet-title{font-weight:900;font-size:20px}.chip{width:50px;height:38px;border-radius:10px;background:linear-gradient(135deg,#ebd28b,#a98836);box-shadow:inset 0 0 0 1px rgba(255,255,255,.3)}.wallet-balance{position:absolute;right:28px;bottom:30px;z-index:2}.wallet-balance small{display:block;opacity:.6;margin-bottom:6px}.wallet-balance strong{font-size:30px}.mini-card{position:absolute;background:var(--card);border:1px solid var(--line);box-shadow:var(--shadow);border-radius:20px;padding:15px 17px;min-width:180px}.mini-a{right:0;bottom:44px}.mini-b{left:0;top:46px}.mini-label{font-size:12px;color:var(--muted)}.mini-value{font-weight:900;margin-top:6px}.mini-value.green{color:var(--brand)}
+    .trust-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:25px}.trust-pill{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:9px 12px;color:var(--muted);font-size:13px;font-weight:700}
+    .section{padding:62px 0}.section-title{text-align:center;margin-bottom:30px}.section-title h2{font-size:36px;margin:0 0 10px}.section-title p{color:var(--muted);margin:0;line-height:1.9}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.feature{background:linear-gradient(180deg,var(--card),var(--card2));border:1px solid var(--line);border-radius:24px;padding:24px;box-shadow:var(--shadow)}.icon{width:48px;height:48px;border-radius:15px;background:var(--soft);color:var(--brand);display:grid;place-items:center;font-size:22px}.feature h3{margin:16px 0 8px}.feature p{margin:0;color:var(--muted);line-height:1.9;font-size:14px}.feature.big{grid-column:span 2;background:linear-gradient(135deg,rgba(19,186,130,.12),var(--card))}
+    .privacy{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:30px;padding:34px;box-shadow:var(--shadow)}.privacy-visual{min-height:270px;border-radius:24px;background:linear-gradient(135deg,#0c2d22,#08110d);display:grid;place-items:center;position:relative;overflow:hidden}.lock{font-size:70px;filter:drop-shadow(0 12px 30px rgba(19,186,130,.2))}.privacy ul{margin:18px 0 0;padding:0;list-style:none}.privacy li{padding:10px 0;border-bottom:1px dashed var(--line);color:var(--muted)}.privacy li:last-child{border-bottom:0}
+    .shots{padding:56px 0}.shot-row{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:start;max-width:900px;margin:auto}.shot{background:#050706;border-radius:30px;padding:7px;box-shadow:var(--shadow);transition:.25s}.shot:hover{transform:translateY(-7px)}.shot img{width:100%;display:block;border-radius:23px}
+    .download-card{margin:52px auto;padding:38px;border-radius:30px;background:linear-gradient(135deg,#0a6f51,#13ba82);color:white;box-shadow:0 28px 70px rgba(19,186,130,.24);position:relative;overflow:hidden}.download-card:after{content:"";position:absolute;width:250px;height:250px;border-radius:50%;background:rgba(255,255,255,.08);left:-90px;top:-120px}.download-card h2{font-size:32px;margin:0 0 8px;position:relative;z-index:2}.download-card p{margin:0 0 24px;opacity:.9;line-height:1.9;position:relative;z-index:2}.download-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;position:relative;z-index:2}.store-btn{background:white;color:#08684e;border-radius:18px;padding:16px 18px;font-weight:900;text-align:center}.store-btn.disabled{opacity:.58;cursor:not-allowed}.store-btn small{display:block;font-weight:400;margin-top:5px;color:#6d7773}
+    .faq{max-width:900px;margin:auto}.faq details{background:var(--card);border:1px solid var(--line);border-radius:18px;margin-bottom:12px;padding:0 18px;box-shadow:0 10px 34px rgba(0,0,0,.05)}.faq summary{cursor:pointer;font-weight:900;padding:18px 0;list-style:none}.faq summary::-webkit-details-marker{display:none}.faq summary:after{content:"＋";float:left;color:var(--brand)}.faq details[open] summary:after{content:"−"}.faq p{color:var(--muted);line-height:1.9;margin:0;padding:0 0 18px}.footer{border-top:1px solid var(--line);padding:28px 0 38px;color:var(--muted);text-align:center;font-size:14px}
+    @media(max-width:900px){.hero{grid-template-columns:1fr;text-align:center;padding-top:40px}.hero p{margin-inline:auto}.actions,.trust-row{justify-content:center}.wallet-scene{min-height:430px}.grid{grid-template-columns:1fr 1fr}.feature.big{grid-column:span 2}.privacy{grid-template-columns:1fr}.download-grid{grid-template-columns:1fr}}
+    @media(max-width:560px){.wrap{width:min(100% - 22px,1160px)}.nav{height:66px}.support{padding:9px 11px;font-size:12px}.hero{gap:28px;padding-top:30px}.hero h1{font-size:42px}.hero p{font-size:16px}.actions{display:grid}.btn{width:100%}.wallet-scene{min-height:350px}.wallet-card{width:88vw;padding:22px}.wallet-balance{right:22px;bottom:24px}.wallet-balance strong{font-size:24px}.mini-card{display:none}.grid{grid-template-columns:1fr}.feature.big{grid-column:auto}.section-title h2{font-size:29px}.shot-row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px 2px 18px}.shot{min-width:76vw;scroll-snap-align:center}.download-card{padding:28px 20px}.privacy{padding:22px}}
   </style>
 </head>
 <body>
@@ -32,28 +36,57 @@
     <section class="wrap hero">
       <div>
         <span class="badge">● مدیریت مالی آفلاین و شخصی</span>
-        <h1><span>داریک</span>؛ مدیریت مالی آفلاین و شخصی</h1>
-        <p>دارایی‌ها، حساب‌ها، درآمد و هزینه، اقساط و وام‌ها و گزارش‌های مالی خود را به‌صورت شخصی و آفلاین مدیریت کنید؛ در کنار آن قیمت‌های لحظه‌ای بازار را هم در یک رابط فارسی و مینیمال ببینید.</p>
+        <h1>پول‌هات رو با <span>داریک</span> بهتر مدیریت کن</h1>
+        <p>داریک یک اپ مدیریت مالی شخصی برای ثبت حساب‌ها، درآمد و هزینه، اقساط، وام‌ها و گزارش‌های مالی است. رابط ساده، تم تیره و روشن و ساختار آفلاین کمک می‌کند اطلاعات مالی روزمره‌ات را همیشه منظم و در دسترس داشته باشی.</p>
         <div class="actions">
-          <a class="btn primary" href="#download">↓ دانلود داریک</a>
-          <a class="btn secondary" href="#screenshots">مشاهده تصاویر</a>
+          <a class="btn primary" href="#download">⬇ دانلود داریک</a>
+          <a class="btn secondary" href="#features">مشاهده امکانات</a>
+        </div>
+        <div class="trust-row">
+          <span class="trust-pill">🔒 آفلاین و شخصی</span><span class="trust-pill">📱 مخصوص اندروید</span><span class="trust-pill">🌙 دارک مود پیش‌فرض</span><span class="trust-pill">🇮🇷 رابط فارسی</span>
         </div>
       </div>
-      <div class="phone"><img src="assets/screen-home-dark.webp" alt="نمای صفحه اصلی داریک در حالت تیره" /></div>
+      <div class="wallet-scene" aria-hidden="true">
+        <div class="wallet-card">
+          <div class="wallet-top"><div class="wallet-title">DARIC</div><div class="chip"></div></div>
+          <div class="wallet-balance"><small>خالص دارایی</small><strong>۱۲۴,۵۰۰,۰۰۰ تومان</strong></div>
+        </div>
+        <div class="mini-card mini-a"><div class="mini-label">هزینه این ماه</div><div class="mini-value">۸,۴۵۰,۰۰۰ تومان</div></div>
+        <div class="mini-card mini-b"><div class="mini-label">درآمد ماه</div><div class="mini-value green">+ ۲۱,۸۰۰,۰۰۰ تومان</div></div>
+      </div>
     </section>
 
-    <section class="wrap features">
-      <div class="section-title"><h2>مدیریت مالی ساده، شخصی و آفلاین</h2><p>اطلاعات مالی شما برای استفاده روزمره در یک محیط خلوت و کاربردی.</p></div>
+    <section id="features" class="wrap section">
+      <div class="section-title"><h2>همه ابزارهای مالی روزمره در یک جا</h2><p>داریک برای مدیریت ساده و سریع امور مالی شخصی طراحی شده؛ بدون شلوغی و پیچیدگی اضافه.</p></div>
       <div class="grid">
-        <article class="feature"><div class="icon">◉</div><h3>دارایی و حساب‌ها</h3><p>مدیریت حساب بانکی، کیف پول نقدی و مشاهده خالص دارایی.</p></article>
-        <article class="feature"><div class="icon">▣</div><h3>اقساط و وام</h3><p>ثبت اقساط، سررسیدها و مدیریت پرداخت‌های دوره‌ای.</p></article>
-        <article class="feature"><div class="icon">⌁</div><h3>آفلاین و شخصی</h3><p>مدیریت اطلاعات مالی روزمره بدون نیاز دائمی به اینترنت.</p></article>
-        <article class="feature"><div class="icon">◔</div><h3>گزارش مالی</h3><p>مقایسه درآمد و هزینه و بررسی وضعیت مالی در بازه‌های مختلف.</p></article>
+        <article class="feature big"><div class="icon">💳</div><h3>حساب‌ها و دارایی‌ها</h3><p>حساب‌های بانکی، کیف پول نقدی و سایر دارایی‌ها را ثبت کنید و یک نمای کلی از وضعیت مالی خود داشته باشید.</p></article>
+        <article class="feature"><div class="icon">↕</div><h3>درآمد و هزینه</h3><p>تراکنش‌های روزمره را با دسته‌بندی ثبت کنید تا بدانید پولتان کجا خرج می‌شود.</p></article>
+        <article class="feature"><div class="icon">▣</div><h3>اقساط و وام</h3><p>وام‌ها، تعداد اقساط و سررسیدها را مدیریت کنید و پرداخت‌های پیش‌رو را ببینید.</p></article>
+        <article class="feature"><div class="icon">◔</div><h3>گزارش مالی</h3><p>درآمد و هزینه را در بازه‌های مختلف مقایسه کنید و تصویر روشن‌تری از روند مالی خود داشته باشید.</p></article>
+        <article class="feature"><div class="icon">↻</div><h3>قیمت‌های بازار</h3><p>قیمت طلا، ارز و بازارهای موردنیاز را در کنار ابزارهای مالی شخصی مشاهده کنید.</p></article>
+        <article class="feature"><div class="icon">🌙</div><h3>دارک و لایت مود</h3><p>دارک مود به‌صورت پیش‌فرض فعال است و در صورت تمایل می‌توانید ظاهر روشن را انتخاب کنید.</p></article>
+        <article class="feature"><div class="icon">⚡</div><h3>سریع و خلوت</h3><p>تمرکز طراحی روی دسترسی سریع به اطلاعات مهم و کاهش مراحل اضافه در استفاده روزانه است.</p></article>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <div class="privacy">
+        <div>
+          <span class="badge">حریم خصوصی</span>
+          <h2>اطلاعات مالی، شخصی باقی می‌ماند</h2>
+          <p style="color:var(--muted);line-height:2">داریک برای مدیریت مالی شخصی و استفاده آفلاین طراحی شده تا برای ثبت و مرور اطلاعات روزمره، وابستگی دائمی به اینترنت نداشته باشید.</p>
+          <ul>
+            <li>✓ استفاده از امکانات اصلی به‌صورت آفلاین</li>
+            <li>✓ بدون نیاز به ساخت حساب کاربری برای مدیریت روزمره</li>
+            <li>✓ مناسب برای ثبت حساب‌ها، تراکنش‌ها و اقساط شخصی</li>
+          </ul>
+        </div>
+        <div class="privacy-visual"><div class="lock">🔐</div></div>
       </div>
     </section>
 
     <section id="screenshots" class="wrap shots">
-      <div class="section-title"><h2>تصاویر داریک</h2><p>نمای واقعی از رابط کاربری روشن و تیره برنامه.</p></div>
+      <div class="section-title"><h2>نگاهی به داریک</h2><p>تصاویر واقعی از رابط کاربری برنامه در حالت روشن و تیره.</p></div>
       <div class="shot-row">
         <div class="shot"><img src="assets/screen-home-light.webp" alt="صفحه خانه روشن داریک" loading="lazy"></div>
         <div class="shot"><img src="assets/screen-home-dark.webp" alt="صفحه خانه تیره داریک" loading="lazy"></div>
@@ -63,14 +96,28 @@
 
     <section id="download" class="wrap download-card">
       <h2>دانلود داریک برای اندروید</h2>
-      <p>یکی از روش‌های دانلود زیر را انتخاب کنید.</p>
+      <p>نسخه مستقیم APK آماده دانلود است. نسخه کافه‌بازار و مایکت هم پس از انتشار به همین بخش متصل می‌شوند.</p>
       <div class="download-grid">
         <a class="store-btn" href="https://raw.githubusercontent.com/sahandse/Daricapp/main/base.apk" download>⬇ دانلود مستقیم<small>فایل APK</small></a>
-        <a class="store-btn disabled" href="#" onclick="return false">کافه‌بازار<small>لینک صفحه برنامه را ارسال کنید</small></a>
-        <a class="store-btn disabled" href="#" onclick="return false">مایکت<small>لینک صفحه برنامه را ارسال کنید</small></a>
+        <a class="store-btn disabled" href="#" onclick="return false">کافه‌بازار<small>به‌زودی</small></a>
+        <a class="store-btn disabled" href="#" onclick="return false">مایکت<small>به‌زودی</small></a>
+      </div>
+    </section>
+
+    <section class="wrap section">
+      <div class="section-title"><h2>پرسش‌های پرتکرار</h2><p>چند پاسخ کوتاه درباره استفاده از داریک.</p></div>
+      <div class="faq">
+        <details><summary>داریک برای چه کاری ساخته شده؟</summary><p>برای مدیریت مالی شخصی؛ شامل ثبت حساب‌ها، درآمد و هزینه، اقساط، وام‌ها، گزارش‌های مالی و مشاهده قیمت‌های بازار.</p></details>
+        <details><summary>آیا برای استفاده از داریک باید حساب کاربری بسازم؟</summary><p>برای امکانات اصلی مدیریت مالی روزمره، داریک با رویکرد آفلاین و شخصی طراحی شده و هدف آن استفاده ساده بدون وابستگی دائمی به حساب آنلاین است.</p></details>
+        <details><summary>بدون اینترنت هم کار می‌کند؟</summary><p>بخش‌های اصلی مدیریت مالی برای استفاده آفلاین طراحی شده‌اند. بخش‌هایی که به اطلاعات به‌روز بازار وابسته‌اند طبیعتاً برای دریافت داده جدید به اینترنت نیاز دارند.</p></details>
+        <details><summary>دارک مود دارد؟</summary><p>بله. دارک مود حالت پیش‌فرض صفحه و برنامه است و امکان تغییر به حالت روشن نیز وجود دارد.</p></details>
+        <details><summary>دانلود مستقیم امن است؟</summary><p>دکمه دانلود مستقیم به فایل APK همین پروژه متصل است. برای نصب، اندروید ممکن است بسته به تنظیمات دستگاه اجازه نصب از این منبع را درخواست کند.</p></details>
+        <details><summary>نسخه کافه‌بازار و مایکت چه زمانی فعال می‌شود؟</summary><p>به‌محض انتشار رسمی در این مارکت‌ها، دکمه‌های همان بخش با لینک مستقیم صفحه برنامه فعال می‌شوند.</p></details>
+        <details><summary>برای پشتیبانی از کجا پیام بدهم؟</summary><p>از دکمه «پشتیبانی تلگرام» بالای صفحه می‌توانید مستقیماً با پشتیبانی در ارتباط باشید.</p></details>
       </div>
     </section>
   </main>
+
   <footer class="footer">© داریک — مدیریت مالی آفلاین و شخصی</footer>
 
   <script>
